@@ -1,0 +1,17 @@
+\ProvidesFile{fontname.def}
+\setCJKmainfont[Path=fonts/,BoldFont={simhei.ttf},ItalicFont={simkai.ttf}]{simsun.ttc}
+\setCJKsansfont[Path=fonts/]{simhei.ttf}
+\setCJKmonofont[Path=fonts/]{simfang.ttf}
+\setCJKfamilyfont{zhsong}[Path=fonts/]{simsun.ttc}
+\setCJKfamilyfont{zhhei}[Path=fonts/]{simhei.ttf}
+\setCJKfamilyfont{zhkai}[Path=fonts/]{simkai.ttf}
+\setCJKfamilyfont{zhfs}[Path=fonts/]{simfang.ttf}
+\setCJKfamilyfont{zhli}[Path=fonts/]{wqy-microhei.ttc}
+\setCJKfamilyfont{zhyou}[Path=fonts/]{youyuan.ttf}
+
+\newcommand*{\songti}{\CJKfamily{zhsong}}
+\newcommand*{\heiti}{\CJKfamily{zhhei}}
+\newcommand*{\kaishu}{\CJKfamily{zhkai}}
+\newcommand*{\fangsong}{\CJKfamily{zhfs}}
+\newcommand*{\lishu}{\CJKfamily{zhli}}
+\newcommand*{\youyuan}{\CJKfamily{zhyou}}
